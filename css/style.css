@@ -15,6 +15,20 @@ body{
     font-size: 1.6rem;
     font-family: var(--fuenteParrafos);
     line-height: 1.5;
+    background: rgb(254,173,166);
+    background: linear-gradient(9deg, rgba(254,173,166,1) 0%, rgba(245,239,239,1) 100%);
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
 }
 /*----------------------------------------------------------/
 
@@ -133,3 +147,15 @@ ul{
     background-color: var(--verdesito);
 }
 /*---------------------------------------------------------/
+
+
+
+/*-----------------------INDEX----------------------------*/
+.bordes_inf_izq{
+    
+    border-left: 3px solid var(--primario);
+    border-bottom: 3px solid var(--primario);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem auto; 
+}
