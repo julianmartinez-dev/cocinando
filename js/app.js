@@ -18,3 +18,29 @@
             }, false)
         })
 })()
+
+
+const modalImagen = document.querySelector('#modal-imagen');
+if (modalImagen) {
+
+    modalImagen.addEventListener('show.bs.modal', function (event) { //Cuando abro el modal
+        const enlace = event.relatedTarget;
+        const rutaImagen = enlace.getAttribute('data-bs-imagen');
+
+        //Construir Imagen
+        const imagen = document.createElement('IMG'); //Creo una etiqueta img
+        imagen.src = `../img/${rutaImagen}.webp`; //Le agrego el src
+        imagen.classList.add('img-fluid');
+        imagen.classList.add('w-100'); //Le agrego una clase
+        imagen.alt = 'Imagen Egresado'; //Le agrego el alt
+
+        const contenidoModal = document.querySelector('.modal-body'); //Le agrego la imagen el cuerpo del modal
+        contenidoModal.appendChild(imagen);
+    })
+
+    modalImagen.addEventListener('hidden.bs.modal', function () { //Cuando cierro el modal
+        contenidoModal = document.querySelector('.modal-body');
+        contenidoModal.textContent = '';
+    })
+
+}
