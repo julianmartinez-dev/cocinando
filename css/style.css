@@ -158,11 +158,6 @@ ul{
     padding: 2rem;
     margin: 1rem auto; 
 }
-@media(min-width: 768px) {
-    .utilidad_img{
-        max-width: 678px;
-    }
-}
 
 
 /*------------------ Start: Video Responsive ---------------*/
