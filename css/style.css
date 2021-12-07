@@ -59,7 +59,6 @@ ul{
     border-color: var(--verdesito);
     border-style: solid;
     border-radius: 10px;
-    padding: 4rem;
     margin: 1rem auto;  
 }
 /*------------------------------------------------------------/
@@ -159,7 +158,11 @@ ul{
     padding: 2rem;
     margin: 1rem auto; 
 }
-
+@media(min-width: 768px) {
+    .utilidad_img{
+        max-width: 678px;
+    }
+}
 
 
 /*------------------ Start: Video Responsive ---------------*/
@@ -183,3 +186,4 @@ ul{
     position:absolute;
 }
 /* ---------------End: Video Responsive------------------------ */
+
