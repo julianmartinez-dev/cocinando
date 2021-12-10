@@ -3,6 +3,7 @@
     --fuenteParrafos: 'Open Sans', sans-serif;
 
     --primario: #664625;
+    --primario-oscuro: #533310;
     --negro: #222222;
     --claro: rgb(244,244,244);
     --verdesito: #89A490;
@@ -182,3 +183,20 @@ ul{
 }
 /* ---------------End: Video Responsive------------------------ */
 
+
+/*-----------------CURSOS-----------------*/
+.bg-verde{
+    background-color: var(--verdesito);
+}
+.bg-primario{
+    background-color: var(--primario-oscuro);
+}
+.btn-primario{
+    background-color: var(--primario);
+    color: var(--claro);
+    transition: all .3s;
+}
+.btn-primario:hover{
+    background-color: var(--primario-oscuro);
+    color: var(--claro);
+}
