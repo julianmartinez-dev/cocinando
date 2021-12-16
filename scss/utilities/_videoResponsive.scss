@@ -1,0 +1,24 @@
+// @import 'globales';
+// @import 'variables';
+
+/*------------------ Start: Video Responsive ---------------*/
+.video-responsive {
+    overflow:hidden;
+    padding-bottom: 40rem; /* Adecua este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+    outline: solid $verdesito;
+}
+@media(min-width: 768px) {
+    .video-responsive{
+        padding-bottom: 80rem;;
+    }
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* ---------------End: Video Responsive------------------------ */

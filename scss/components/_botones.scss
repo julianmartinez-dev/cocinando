@@ -1,0 +1,12 @@
+// @import 'variables';
+
+.btn-primario{
+    background-color: $primario;
+    color: $claro;
+    transition: all .3s;
+
+    &:hover{
+        background-color: $primario-oscuro;
+        color: $claro;
+    }
+}

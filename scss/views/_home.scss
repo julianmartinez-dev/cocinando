@@ -1,0 +1,10 @@
+// @import 'globales';
+// @import 'variables';
+
+.bordes_inf_izq{
+    border-left: 3px solid $verdesito;
+    border-bottom: 3px solid $verdesito;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem auto; 
+}

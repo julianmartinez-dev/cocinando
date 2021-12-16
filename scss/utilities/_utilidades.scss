@@ -1,0 +1,23 @@
+// @import 'variables';
+// @import 'globales';
+
+.sombras{
+    text-shadow: 1px 1px 2px $negro, 0 0 1em $verdesito, 0 0 .2em $primario;
+}
+
+.bordes{
+    border-color: $verdesito;
+    border-style: solid;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+
+.bg-verde{
+    background-color: $verdesito;
+}
+.bg-primario{
+    background-color: $primario-oscuro;
+}
+nav ul li a:hover{
+    color: $verdesito!important;
+}
