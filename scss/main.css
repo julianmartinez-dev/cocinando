@@ -43,11 +43,15 @@ ul {
   text-shadow: 1px 1px 2px #222222, 0 0 1em #89A490, 0 0 0.2em #664625;
 }
 
-.bordes {
+.bordes, .bordes-marrones {
   border-color: #89A490;
   border-style: solid;
   border-radius: 1rem;
   margin: 1rem auto;
+}
+
+.bordes-marrones {
+  border-color: #533310;
 }
 
 .bg-verde {

@@ -2,11 +2,20 @@
 $fuenteHeading: 'PT Sans', sans-serif;
 $fuenteParrafos: 'Open Sans', sans-serif;
 
+//MAP DE COLORES
+$colores:(
+    marron: #664625,
+    marron-oscuro: #533310,
+    negro: #222222,
+    blanco: rgb(244,244,244),
+    verdesito: #89A490,
+    rosa: rgb(254,173,166)
+);
 
 //Colores
-$primario: #664625;
-$primario-oscuro: #533310;
-$negro: #222222;
-$claro: rgb(244,244,244);
-$verdesito: #89A490;
-$bg-color: rgb(254,173,166);
+$primario: map-get($map: $colores, $key: marron);
+$primario-oscuro: map-get($map: $colores, $key: marron-oscuro);
+$negro: map-get($map: $colores, $key: negro);
+$claro: map-get($map: $colores, $key: blanco);
+$verdesito: map-get($map: $colores, $key: verdesito);
+$bg-color: map-get($map: $colores, $key: rosa);

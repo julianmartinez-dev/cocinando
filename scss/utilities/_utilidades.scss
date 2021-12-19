@@ -11,6 +11,10 @@
     border-radius: 1rem;
     margin: 1rem auto;
 }
+.bordes-marrones{ //USO DEL EXTEND
+    @extend .bordes;
+    border-color: $primario-oscuro;
+}
 
 .bg-verde{
     background-color: $verdesito;
