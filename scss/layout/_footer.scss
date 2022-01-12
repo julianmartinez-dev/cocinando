@@ -10,7 +10,7 @@
     margin-top: 4rem;
     border-top: 4px solid $verdesito;
 }
-@include verEn($tablet){ //Mixin de media Query
+@include verEn(tablet){ //Mixin de media Query
     .footer{  
          height: 10rem;
     }
