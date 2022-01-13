@@ -1,5 +1,6 @@
-// @import 'globales';
-// @import 'variables';
+@import '../base/globales';
+@import'../utilities/variables';
+@import '../utilities/mixins';
 
 .header{
     background-image: url(../img/banner2.webp);

@@ -1,5 +1,8 @@
 // @import 'globales';
 // @import 'variables';
+@import '../base/globales';
+@import './variables';
+@import './mixins';
 
 /*------------------ Start: Video Responsive ---------------*/
 .video-responsive {

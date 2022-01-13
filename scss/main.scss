@@ -1,6 +1,7 @@
 
 @import './base/globales';
 @import './utilities/variables';
+@import './utilities/mixins';
 @import './utilities/utilidades';
 @import './layout/header';
 @import './layout/footer';
@@ -8,4 +9,3 @@
 @import './views/opiniones';
 @import './components/botones';
 @import './utilities/videoResponsive';
-@import './utilities/mixins';
