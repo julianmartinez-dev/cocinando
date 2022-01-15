@@ -330,6 +330,16 @@ ul {
   color: #f4f4f4;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #222222;
+  background-color: #89A490;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid #664625;
+}
+
 html {
   font-size: 62.5%;
 }

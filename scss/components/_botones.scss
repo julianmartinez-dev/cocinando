@@ -1,4 +1,4 @@
-@import '../utilities/variables';
+ @import '../utilities/variables';
 
 .btn-primario{
     background-color: $primario;
@@ -9,4 +9,16 @@
         background-color: $primario-oscuro;
         color: $claro;
     }
+}
+
+
+//Accordion
+.accordion-button:not(.collapsed) {
+    color: $negro;
+    background-color: $verdesito;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #664625;
 }
