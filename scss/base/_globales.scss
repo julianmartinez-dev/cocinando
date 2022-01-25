@@ -37,3 +37,14 @@ a{
 ul{
     list-style: none;
 }
+
+
+//Barra de navegacion lateral
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(137, 164, 144, 0.4)
+}
+body::-webkit-scrollbar-thumb{
+    width: 9px;
+    background-color: rgb(137, 164, 144)
+}

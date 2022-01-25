@@ -39,53 +39,22 @@ ul {
   list-style: none;
 }
 
-html {
-  font-size: 62.5%;
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(137, 164, 144, 0.4);
 }
 
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  background-color: #feada6;
-  background: linear-gradient(9deg, #feada6 0%, #f5efef 100%);
-}
-
-h1 {
-  font-size: 4.8rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3.2rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-h1, h2, h3, h4 {
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
+body::-webkit-scrollbar-thumb {
+  width: 9px;
+  background-color: #89a490;
 }
 
 .sombras {
-  text-shadow: 1px 1px 2px #222222, 0 0 1em #89A490, 0 0 0.2em #664625;
+  text-shadow: 1px 1px 2px #222222, 0 0 1em #89a490, 0 0 0.2em #664625;
 }
 
 .bordes, .bordes-marrones {
-  border-color: #89A490;
+  border-color: #89a490;
   border-style: solid;
   border-radius: 1rem;
   margin: 1rem auto;
@@ -96,7 +65,7 @@ ul {
 }
 
 .bg-verde {
-  background-color: #89A490;
+  background-color: #89a490;
 }
 
 .bg-primario {
@@ -104,48 +73,7 @@ ul {
 }
 
 nav ul li a:hover {
-  color: #89A490 !important;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  background-color: #feada6;
-  background: linear-gradient(9deg, #feada6 0%, #f5efef 100%);
-}
-
-h1 {
-  font-size: 4.8rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3.2rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-h1, h2, h3, h4 {
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
+  color: #89a490 !important;
 }
 
 .header {
@@ -154,7 +82,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-bottom: 4px solid #89A490;
+  border-bottom: 4px solid #89a490;
   margin-bottom: 5rem;
 }
 
@@ -221,45 +149,8 @@ ul {
   }
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  background-color: #feada6;
-  background: linear-gradient(9deg, #feada6 0%, #f5efef 100%);
-}
-
-h1 {
-  font-size: 4.8rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3.2rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-h1, h2, h3, h4 {
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
+.foo {
+  background-color: rgba(53, 49, 49, 0.5);
 }
 
 .footer {
@@ -269,7 +160,7 @@ ul {
   background-position: left top;
   height: 25rem;
   margin-top: 4rem;
-  border-top: 4px solid #89A490;
+  border-top: 4px solid #89a490;
 }
 
 @media (min-width: 768px) {
@@ -279,12 +170,12 @@ ul {
 }
 
 .copy__descripcion {
-  background-color: #89A490;
+  background-color: #89a490;
 }
 
 .bordes_inf_izq {
-  border-left: 3px solid #89A490;
-  border-bottom: 3px solid #89A490;
+  border-left: 3px solid #89a490;
+  border-bottom: 3px solid #89a490;
   border-radius: 1rem;
   padding: 2rem;
   margin: 1rem auto;
@@ -318,6 +209,15 @@ ul {
 
 /* The overlay effect - lays on top of the container and over the image */
 /* When you mouse over the container, fade in the overlay title */
+.barra-redes {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top-color: #89a490;
+  border-bottom-color: #89a490;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-style: solid;
+}
+
 .btn-primario {
   background-color: #664625;
   color: #f4f4f4;
@@ -332,53 +232,12 @@ ul {
 
 .accordion-button:not(.collapsed) {
   color: #222222;
-  background-color: #89A490;
+  background-color: #89a490;
 }
 
 .accordion-item {
   background-color: #fff;
   border: 1px solid #664625;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  background-color: #feada6;
-  background: linear-gradient(9deg, #feada6 0%, #f5efef 100%);
-}
-
-h1 {
-  font-size: 4.8rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3.2rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-h1, h2, h3, h4 {
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
 }
 
 /*------------------ Start: Video Responsive ---------------*/
@@ -388,7 +247,7 @@ ul {
   /* Adecua este valor para controlar la altura del video */
   position: relative;
   height: 0;
-  outline: solid #89A490;
+  outline: solid #89a490;
 }
 
 @media (min-width: 768px) {
