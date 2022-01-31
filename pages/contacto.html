@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../scss/vendors/bootstrap.min.css">
-    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Cocinando - Contacto</title>
 </head>
 <body>
@@ -93,7 +93,7 @@
 
             <div class="row">
                 <h2 class="text-center py-5 display-3 fw-bold">Como ubicarnos</h2>
-                <div class="col-md-5 order-last">
+                <div class="col-md-5 order-last mt-5 mt-md-auto">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.110237105254!2d-62.07796888439629!3d-31.438631981396725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb28020db911f1%3A0xe939dad0e6163629!2sLiniers%20736%2C%20San%20Francisco%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1643115927831!5m2!1ses-419!2sar"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="ratio"></iframe>
@@ -154,9 +154,9 @@
 
             <!--FORMULARIO CONTACTO-->
             <div class="row justify-content-center fs-1">
-                <form class="col-md-8 needs-validation" novalidate>
+                <form class="col-md-8 needs-validation px-5" novalidate>
                     <fieldset>
-                        <legend class="bg-verde text-center text-white fs-1 py-4">
+                        <legend class="bg-verde text-center text-white fs-1 py-4 fw-bold">
                             Tus Datos
                         </legend>
         
@@ -191,7 +191,7 @@
                     </fieldset>
         
                     <fieldset class="mt-5">
-                        <legend class="bg-verde text-center text-white fs-1 py-4">País</legend>
+                        <legend class="bg-verde text-center text-white fs-1 py-4 fw-bold">País</legend>
         
                         <div class="mb-3">
                             <label class="form-label" for="pais">Pais</label>
@@ -208,8 +208,11 @@
                             <span class="invalid-feedback">Debe seleccionar un pais de la lista</span>
                         </div>
                     </fieldset>
-        
-                    <input class="btn btn-primario py-5 px-5 fs-2 mt-5 mb-5 w-100" type="submit" value="Enviar Formulario">
+                    
+                    <div class="text-center">
+                       <input class="btn btn-primario py-3 px-5 fs-2 mt-5 mb-5 w-30 fw-bold " type="submit" value="Enviar Formulario"> 
+                    </div>
+                    
                 </form>
             </div>
 
