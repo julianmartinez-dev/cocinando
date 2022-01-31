@@ -1,6 +1,8 @@
 # cocinando
 Proyecto Final de Desarrollo Web, CoderHouse Octubre/2021 - Enero/2022
 
+  ![previe2](https://user-images.githubusercontent.com/93665971/145679046-97ea4582-22d2-43af-9879-a4ad8e15f1b0.jpg)
+
 <hr>
 <h2>Sobre el curso</h2>
 
@@ -27,12 +29,14 @@ Este proyecto esta enfocado en una arquitectura MPA (Multi Page Application) y c
 
   *- HTML<br>
   *- CSS<br>
+  *- SCSS<br>
+  *- JAVASCRIPT<br>
   *- BOOTSTRAP<br>
   *- GIT/GITHUB<br>
   
   <hr>
   <h2>Deployment del sitio</h2>
-  https://julianmartinez-dev.github.io/cocinando/<br><br>
+  https://cocinando.netlify.app/<br><br>
   
-  ![previe2](https://user-images.githubusercontent.com/93665971/145679046-97ea4582-22d2-43af-9879-a4ad8e15f1b0.jpg)
+
 
